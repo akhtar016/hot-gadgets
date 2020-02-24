@@ -13,7 +13,7 @@ html{
     cursor: pointer;
     color: #fff;
     font-weight: bold;
-   /* text-transform: uppercase;*/
+   text-transform: uppercase;
 }
 .container{
     margin-bottom: 70px;
@@ -59,3 +59,39 @@ margin-top: 15px;
 color: salmon;
 }
 
+
+.category{
+    display: inline-block;
+    position: relative;
+}
+.category::after{
+
+    height: 6px;
+    width: 7%;
+    background: orange;
+    position: absolute;
+    align-items: center;
+    content: "";
+    bottom: -5px;
+    border-radius: 5px;
+
+}
+
+.category-section{
+
+    margin-top: 70px;
+}
+.card-body{
+    align-items: center;
+    text-align: center;
+    
+}
+.middle-section-card{
+
+    margin-top: 25px;
+}
+
+.category-section h6{
+
+    margin-top: 15px;
+}
