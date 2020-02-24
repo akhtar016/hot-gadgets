@@ -16,6 +16,46 @@ html{
    /* text-transform: uppercase;*/
 }
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    border-radius: 10px;
+
+}
+
+.all-card-items{
+
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.carousel-indicators li {
+    border-radius: 50px;
+    opacity: 1;
+    background-color: #CECECE;
+    width: 16px;
+    height: 12px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.carousel-indicators .active {
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    width: 45px;
+}
+
+.card-deck{
+
+margin-top: 15px;
+
+}
+.see-all{
+
+color: salmon;
 }
 
